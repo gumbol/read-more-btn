@@ -23,7 +23,7 @@ Where article is the article element. and number of words is the number of words
 
 ## To do
 
-- Choose between word or char count
+- Choose between word or char count or first occurance of a word.
 - Add control for coll and exp speed
 - Adjust buttons positions
 - Add other attributes to get article like class and id.
