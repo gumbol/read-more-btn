@@ -1,7 +1,7 @@
-# Read-more.js
+# Readmore.js
 A lightweight vanilla javascript api for expanding and collapsing blocks of text with "read more" and "read less" buttons
 
-![demo gif](https://github.com/gumbol/Read-more.js/blob/main/readmorejs-demo.gif)
+![demo gif](https://github.com/gumbol/Read-more.js/blob/main/readmore-demo.gif)
 
 Excuse the poor visual planning to upload a better gif demo
 
