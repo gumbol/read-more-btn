@@ -23,8 +23,8 @@ include another script tag and call the function
 ```
 Thats it.
 
-### syntax
-readMore('article',[number of words: number])
+_**syntax**:_ 
+**readMore**('article',[\<number of words: number\>])
 Where article is the article element. and number of words is the number of words to keep.
 
 ## To do
