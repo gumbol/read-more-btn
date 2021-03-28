@@ -4,6 +4,10 @@ A lightweight vanilla javascript api for expanding and collapsing blocks of text
 
 ![demo gif](https://github.com/gumbol/Read-more.js/blob/main/images/readmore-demo.gif)
 
+## Features
+
+- Collapses text based on the number of words.
+- Works on multiple texts each wrapped in an article element
 
 ## Use
 
@@ -22,11 +26,6 @@ Thats it.
 ### syntax
 readMore('article',[number of words: number])
 Where article is the article element. and number of words is the number of words to keep.
-
-## Features
-
-- Collapses text based on the number of words.
-- Works on multiple texts each wrapped in an article element
 
 ## To do
 
