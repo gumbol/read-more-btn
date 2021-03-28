@@ -25,8 +25,8 @@ Where article is the article element. and number of words is the number of words
 
 ## Features
 
-- Collapses article texts based on the number of words.
-- Works on multiple articles so that the collapse is of equal length (based on word count)
+- Collapses text based on the number of words.
+- Works on multiple texts each wrapped in an article element
 
 ## To do
 
@@ -38,4 +38,4 @@ Where article is the article element. and number of words is the number of words
 - [ ] Upload a better quality gif demo
 
 ## License
-This app is licensed under MIT
+This app is under MIT license
