@@ -1,4 +1,4 @@
-# readmore.js
+# readmore-js-api
 
 A lightweight vanilla javascript api for expanding and collapsing blocks of text with "read more" and "read less" buttons
 
