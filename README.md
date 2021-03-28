@@ -1,4 +1,4 @@
-# readmore-js-api
+# readmore-js-api v1.5
 
 A lightweight vanilla javascript api for expanding and collapsing blocks of text with "read more" and "read less" buttons
 
@@ -27,7 +27,7 @@ Where article is the article element. and number of words is the number of words
 
 - Choose between word or char count or first occurance of a word.
 - Add speed control for coll and exp
-- Add support for more than one article.
+- ~~Add support for more than one article.~~
 - Add support for class and id.
 - adjust button looks
 - Upload a better quality gif demo
