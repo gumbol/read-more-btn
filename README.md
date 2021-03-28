@@ -27,9 +27,9 @@ Where article is the article element. and number of words is the number of words
 
 - Choose between word or char count or first occurance of a word.
 - Add speed control for coll and exp
-- Add support for more than ine article.
-- adjust button looks
+- Add support for more than one article.
 - Add support for class and id.
+- adjust button looks
 - Upload a better quality gif demo
 
 ## License
