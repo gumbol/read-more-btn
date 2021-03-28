@@ -6,7 +6,7 @@ A lightweight vanilla javascript api for expanding and collapsing blocks of text
 
 ## Features
 
-- Collapses text based on the number of words.
+- Collapse and expand text based on the number of words.
 - Works on multiple texts each wrapped in an article element
 
 ## Use
