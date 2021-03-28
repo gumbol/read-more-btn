@@ -23,6 +23,11 @@ Thats it.
 readMore('article',[number of words: number])
 Where article is the article element. and number of words is the number of words to keep.
 
+## Features
+
+- Collapses article texts based on the number of words.
+- Works on multiple articles so that the collapse is of equal length (based on word count)
+
 ## To do
 
 - Choose between word or char count or first occurance of a word.
