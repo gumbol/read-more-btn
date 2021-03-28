@@ -6,7 +6,7 @@ A lightweight vanilla javascript api for expanding and collapsing blocks of text
 Excuse the poor visual planning to upload a better gif demo
 
 
-## Install
+## Use
 
 Download readmore.js file
 
@@ -14,15 +14,13 @@ include it in your HTML:
 ```html
 <script src="scripts/readmore.js"></script>
 ```
-
-
-## Use
-include another script tag like the following example
+include another script tag and call the function
 ```html
 <script>readMore('article',20)</script>
 ```
+Thats it.
 
-The syntax is
+### syntax
 readMore('article',[number of words: number])
 Where article is the article element. and number of words is the number of words to keep.
 
