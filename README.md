@@ -30,12 +30,12 @@ Where article is the article element. and number of words is the number of words
 
 ## To do
 
-- Choose between word or char count or first occurance of a word.
-- Add speed control for coll and exp
-- ~~Add support for more than one article.~~
-- Add support for class and id.
-- adjust button looks
-- Upload a better quality gif demo
+- [ ] Choose between word or char count or first occurance of a word.
+- [ ] Add speed control for coll and exp
+- [x] ~~Add support for more than one article.~~
+- [ ] Add support for class and id.
+- [ ] Adjust button looks
+- [ ] Upload a better quality gif demo
 
 ## License
 This app is licensed under MIT
