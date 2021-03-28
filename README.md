@@ -4,8 +4,6 @@ A lightweight vanilla javascript api for expanding and collapsing blocks of text
 
 ![demo gif](https://github.com/gumbol/Read-more.js/blob/main/images/readmore-demo.gif)
 
-Excuse the poor visual planning to upload a better gif demo
-
 
 ## Use
 
@@ -28,9 +26,10 @@ Where article is the article element. and number of words is the number of words
 ## To do
 
 - Choose between word or char count or first occurance of a word.
-- Add control for coll and exp speed
-- Adjust buttons positions
-- Add other attributes to get article like class and id.
+- Add speed control for coll and exp
+- Add support for more than ine article.
+- adjust button looks
+- Add support for class and id.
 - Upload a better quality gif demo
 
 ## License
