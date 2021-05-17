@@ -3,7 +3,7 @@
 A lightweight vanilla javascript button for expanding and collapsing blocks of text.
 
 
-![demo gif](https://github.com/gumbol/read-more-btn/public/images/read-more-btn--demo.gif)
+![demo gif](https://github.com/gumbol/read-more-btn/images/read-more-btn-demo.gif)
 =======
 ## Features
 
