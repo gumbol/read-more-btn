@@ -3,12 +3,14 @@
 A lightweight vanilla javascript button for expanding and collapsing blocks of text.
 
 
-![read more button demo](https://github.com/gumbol/read-more-btn/images/read-more-btn-demo.gif)
+![read more button demo](https://github.com/gumbol/read-more-btn/blob/main/images/read-more-btn-demo.gif)
+
 =======
+
 ## Features
 
-- Collapse and expand text based on the number of words.
-- Works on multiple texts each wrapped in an article element
+- Choose how many words to keep and collapse the rest.
+- Can have more than one read more button in one page.
 
 
 ## Use
