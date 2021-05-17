@@ -5,7 +5,6 @@ A lightweight vanilla javascript button for expanding and collapsing blocks of t
 
 ![read more button demo](https://github.com/gumbol/read-more-btn/blob/main/images/read-more-btn-demo.gif)
 
-=======
 
 ## Features
 
