@@ -2,7 +2,14 @@
 
 A lightweight vanilla javascript button for expanding and collapsing blocks of text.
 
+<<<<<<< HEAD
 ![demo gif](https://github.com/gumbol/read-more-btn/public/images/read-more-btn--demo.gif)
+=======
+## Features
+
+- Collapse and expand text based on the number of words.
+- Works on multiple texts each wrapped in an article element
+>>>>>>> 548095ca596b0ae74e3a3f938b6c0f1df48a7e3d
 
 ## Use
 
@@ -18,18 +25,18 @@ include another script tag and call the function
 ```
 Thats it.
 
-### syntax
-readMore('article',[number of words: number])
+_**syntax**:_ 
+**readMore**('article',[\<number of words: number\>])
 Where article is the article element. and number of words is the number of words to keep.
 
 ## To do
 
-- Choose between word or char count or first occurance of a word.
-- Add speed control for coll and exp
-- ~~Add support for more than one article.~~
-- Add support for class and id.
-- adjust button looks
-- Upload a better quality gif demo
+- [ ] Choose between word or char count or first occurance of a word.
+- [ ] Add speed control for coll and exp
+- [x] ~~Add support for multiple articles.~~
+- [ ] Add support for class and id.
+- [ ] Adjust button looks
+- [ ] Upload a better quality gif demo
 
 ## License
-This app is licensed under MIT
+This app is under MIT license
