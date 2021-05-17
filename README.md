@@ -2,14 +2,14 @@
 
 A lightweight vanilla javascript button for expanding and collapsing blocks of text.
 
-<<<<<<< HEAD
+
 ![demo gif](https://github.com/gumbol/read-more-btn/public/images/read-more-btn--demo.gif)
 =======
 ## Features
 
 - Collapse and expand text based on the number of words.
 - Works on multiple texts each wrapped in an article element
->>>>>>> 548095ca596b0ae74e3a3f938b6c0f1df48a7e3d
+
 
 ## Use
 
