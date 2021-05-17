@@ -1,17 +1,16 @@
-# readmore-js-api v1.5
+# Read more button
 
-A lightweight vanilla javascript api for expanding and collapsing blocks of text with "read more" and "read less" buttons
+A lightweight vanilla javascript button for expanding and collapsing blocks of text.
 
-![demo gif](https://github.com/gumbol/Read-more.js/blob/main/images/readmore-demo.gif)
-
+![demo gif](https://github.com/gumbol/read-more-btn/public/images/read-more-btn--demo.gif)
 
 ## Use
 
-Download readmore.js file
+Download the read-more-btn.js file
 
 include it in your HTML:
 ```html
-<script src="scripts/readmore.js"></script>
+<script src="scripts/read-more-btn.js"></script>
 ```
 include another script tag and call the function
 ```html
