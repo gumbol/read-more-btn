@@ -13,7 +13,7 @@ A lightweight vanilla javascript read more button for expanding and collapsing b
 
 ## Use
 
-Download the latrst version of read-more-btn-v1.x.js file
+Download the latest version of read-more-btn-v1.x.js file
 
 include it in your HTML page:
 ```html
