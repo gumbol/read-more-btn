@@ -1,28 +1,3 @@
-/* function getTextWords (str = '')
-{
-
-  let words = str.trim().split(/\s+/g)
-  let tempArr = [];
-  let textArr = [];
-  if (!words[0].length) return 0;
-
-  for (i = 0; i < words.length; i++)
-  {
-
-    for (k = 0; k < words[i].length; k++)
-    {
-
-      let code = words[i].charCodeAt(k)
-      if ((code > 47 && code < 58) ||
-        (code > 64 && code < 91) ||
-        (code > 96 && code < 123))
-        tempArr.push(words[i][k])
-    }
-    textArr.push(tempArr.join(''))
-    tempArr = [];
-  }
-  return textArr;
-} */
 function getTextWords(text = '')
 {
     let wordArr = text.trim().split(/\s+/g)
@@ -32,7 +7,7 @@ function getTextWords(text = '')
 
 
 
-function makeBtn (el = "article", num = 10)
+function mkBtn (el = "article", num = 10)
 {
 
   let text = document.getElementsByTagName(el)
