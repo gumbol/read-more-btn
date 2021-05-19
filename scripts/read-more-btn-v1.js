@@ -1,58 +1,66 @@
-
-function getWord(str = '')
+/* function getTextWords (str = '')
 {
 
-    let word = str.trim().split(/\s+/g)
-    let arr = [];
-    let test = [];
-    if (!word[0].length) return 0;
+  let words = str.trim().split(/\s+/g)
+  let tempArr = [];
+  let textArr = [];
+  if (!words[0].length) return 0;
 
-    for (i = 0; i < word.length; i++)
+  for (i = 0; i < words.length; i++)
+  {
+
+    for (k = 0; k < words[i].length; k++)
     {
 
-        for (k = 0; k < word[i].length; k++)
-        {
-
-            let code = word[i].charCodeAt(k)
-            if ((code > 47 && code < 58) ||
-                (code > 64 && code < 91) ||
-                (code > 96 && code < 123))
-                arr.push(word[i][k])
-        }
-        test.push(arr.join(''))
-        arr = [];
+      let code = words[i].charCodeAt(k)
+      if ((code > 47 && code < 58) ||
+        (code > 64 && code < 91) ||
+        (code > 96 && code < 123))
+        tempArr.push(words[i][k])
     }
-    return test;
+    textArr.push(tempArr.join(''))
+    tempArr = [];
+  }
+  return textArr;
+} */
+function getTextWords(text = '')
+{
+    let wordArr = text.trim().split(/\s+/g)
+    if (!wordArr[0].length) return 0;
+       return wordArr;
 }
 
 
-function readMore(el,num){
-   let textStart = document.getElementsByTagName(el)
-  // let btn = document.createElement('button')
-   //btn.innerText = 'read more';
-   let textArr = getWord(textStart[0].innerText)
 
-  for(i = 0; i < textStart.length; i++){
-  textStart[i].innerText = textArr.slice(0, num).join(" ") + "...";
+function makeBtn (el = "article", num = 10)
+{
+
+  let text = document.getElementsByTagName(el)
+  let wordArr = getTextWords(text[0].innerText)
   let btn = document.createElement('button')
-  btn.setAttribute('name', i)
-  btn.innerText = 'read more';
-  textStart[i].appendChild(btn)
-  }
-  document.addEventListener('click', function(e){
-let att = e.target.getAttribute('name')
-    if(e.target.tagName == "BUTTON"){
+  btn.innerText = 'Read more';
+  if (num < 1) 
+  num = 1;
+  else if (num > wordArr.length) 
+  num = wordArr.length-1;
+ 
+  text[0].innerText = wordArr.slice(0, num).join(" ") + "...";
+  text[0].appendChild(btn)
 
-  //btn.onclick = function(){
-      if(e.target.innerText === 'read less'){
-        textStart[att].innerText = textArr.slice(0, num).join(" ") + "...";
-        textStart[att].appendChild(e.target) 
-        e.target.innerText = 'read more';
-      }else{
-    textStart[att].removeChild(e.target)
-    textStart[att].innerText = textArr.join(" ");
-   textStart[att].appendChild(e.target)
-    e.target.innerText = 'read less';
-  }}
-  })
+  btn.onclick = function ()
+  {
+    if (btn.innerText === 'Read less')
+    {
+      text[0].innerText = wordArr.slice(0, num).join(" ") + "...";
+      text[0].appendChild(btn)
+      btn.innerText = 'Read more';
+    } else
+    {
+      text[0].removeChild(btn)
+      text[0].innerText = wordArr.join(" ");
+      text[0].appendChild(btn)
+      btn.innerText = 'Read less';
+    }
+  }
+
 }
