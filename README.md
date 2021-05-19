@@ -37,10 +37,9 @@ Thats it.
 
 
 ## To do
-- [ ] Choose between word or char count or first occurance of a word.
-- [ ] Control the collapse and expand speed
+- [ ] Fix page rendering when clicking on a button
 - [x] ~~Add support for multiple articles.~~
-- [ ] Add support for class and id.
+- [ ] Add support for class and id and other tags
 
 ## License
 This app is under MIT license
