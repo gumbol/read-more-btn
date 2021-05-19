@@ -22,14 +22,14 @@ include it in your HTML:
 include another script tag and call its function
 ```html
 <script>
-makeBtn('article',20)
+mkBtn('article',20)
 </script>
 ```
 Thats it.
 
-_**syntax**:_ 
+### Syntax:
 
-**readMore**[Tag name][,\<number of words: number\>])
+**mkBtn**[Tag name][,\<number of words: number\>])
 Where tag name is the article element. and number of words is the collapse range.
 
 ## To do
