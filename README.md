@@ -20,6 +20,14 @@ include it in your HTML:
 <script src="scripts/read-more-btn.js"></script>
 ```
 include another script tag and call its function
+
+_**Syntax:**_
+
+**mkBtn**[Tag name][,\<# of words: number\>])
+Where tag name is the article element and the number of of words is the number of visible text words.
+
+
+
 ```html
 <script>
 mkBtn('article',20)
@@ -27,10 +35,6 @@ mkBtn('article',20)
 ```
 Thats it.
 
-### Syntax:
-
-**mkBtn**[Tag name][,\<number of words: number\>])
-Where tag name is the article element. and number of words is the collapse range.
 
 ## To do
 - [ ] Choose between word or char count or first occurance of a word.
